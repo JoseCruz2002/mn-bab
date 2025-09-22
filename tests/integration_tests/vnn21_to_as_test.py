@@ -7,9 +7,9 @@ import torch
 from torch import nn
 from torch.distributions.beta import Beta
 
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.network import load_onnx_model
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.network import load_onnx_model
 from tests.test_util import get_deep_poly_bounds, get_deep_poly_lower_bounds
 
 

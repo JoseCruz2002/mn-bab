@@ -5,10 +5,10 @@ import torch
 from torch import nn
 from torch.distributions import Beta
 
-from src.abstract_domains.DP_f import DeepPoly_f
-from src.abstract_domains.zonotope import HybridZonotope
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.utilities.loading.network import load_onnx_model
+from src2.abstract_domains.DP_f import DeepPoly_f
+from src2.abstract_domains.zonotope import HybridZonotope
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.utilities.loading.network import load_onnx_model
 from tests.test_util import get_deep_poly_bounds, toy_reshape_net
 
 

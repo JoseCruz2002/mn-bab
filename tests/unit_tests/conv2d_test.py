@@ -5,19 +5,19 @@ import torch
 import torch.nn as nn
 from torch import Tensor
 
-from src.abstract_domains.DP_f import DeepPoly_f
-from src.abstract_domains.zonotope import HybridZonotope
-from src.abstract_layers.abstract_conv2d import Conv2d
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.mn_bab_shape import AffineForm, MN_BaB_Shape
-from src.state.tags import query_tag
-from src.utilities.config import (
+from src2.abstract_domains.DP_f import DeepPoly_f
+from src2.abstract_domains.zonotope import HybridZonotope
+from src2.abstract_layers.abstract_conv2d import Conv2d
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.mn_bab_shape import AffineForm, MN_BaB_Shape
+from src2.state.tags import query_tag
+from src2.utilities.config import (
     make_backsubstitution_config,
     make_prima_hyperparameters,
 )
-from src.utilities.loading.data import transform_and_bound
-from src.utilities.loading.network import mnist_conv_small
-from src.verification_subproblem import SubproblemState
+from src2.utilities.loading.data import transform_and_bound
+from src2.utilities.loading.network import mnist_conv_small
+from src2.verification_subproblem import SubproblemState
 from tests.test_util import MNIST_CONV_DATA_TEST_CONFIG, MNIST_INPUT_DIM
 
 

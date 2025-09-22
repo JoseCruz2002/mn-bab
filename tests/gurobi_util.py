@@ -10,12 +10,12 @@ import numpy as np
 from gurobipy import GRB, LinExpr, Model, Var  # type: ignore[import]
 from torch import Tensor
 
-from src.abstract_layers.abstract_conv2d import Conv2d
-from src.abstract_layers.abstract_flatten import Flatten
-from src.abstract_layers.abstract_linear import Linear
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.abstract_layers.abstract_normalization import Normalization
-from src.abstract_layers.abstract_relu import ReLU
+from src2.abstract_layers.abstract_conv2d import Conv2d
+from src2.abstract_layers.abstract_flatten import Flatten
+from src2.abstract_layers.abstract_linear import Linear
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.abstract_layers.abstract_normalization import Normalization
+from src2.abstract_layers.abstract_relu import ReLU
 
 
 def create_milp_model(

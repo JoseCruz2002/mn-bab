@@ -12,8 +12,8 @@ import onnxruntime as ort  # type: ignore[import]
 import torch
 from torch import nn
 
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.utilities.loading.network import load_net, load_onnx_model
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.utilities.loading.network import load_net, load_onnx_model
 
 
 def is_float_try(str: str) -> bool:

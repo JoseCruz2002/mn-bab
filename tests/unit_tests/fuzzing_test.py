@@ -2,11 +2,11 @@ from typing import Callable, List, Optional, Tuple, Union
 
 import torch
 
-from src.abstract_layers.abstract_network import AbstractNetwork
+from src2.abstract_layers.abstract_network import AbstractNetwork
 
-# from src.utilities.config import AbstractDomain
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.network import freeze_network
+# from src2.utilities.config import AbstractDomain
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.network import freeze_network
 from tests.test_util import (  # toy_all_layer_net_1d,
     abs_toy_pad_net,
     abs_toy_pad_tiny_net,

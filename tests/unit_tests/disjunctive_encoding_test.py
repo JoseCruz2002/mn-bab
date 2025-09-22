@@ -1,13 +1,13 @@
 import torch
 
-from src.mn_bab_verifier import MNBaBVerifier
-from src.state.subproblem_state import SubproblemState
-from src.utilities.argument_parsing import get_config_from_json
-from src.utilities.config import make_config
+from src2.mn_bab_verifier import MNBaBVerifier
+from src2.state.subproblem_state import SubproblemState
+from src2.utilities.argument_parsing import get_config_from_json
+from src2.utilities.config import make_config
 
-# from src.utilities.config import AbstractDomain
-from src.utilities.output_property_form import OutputPropertyForm
-from src.verification_instance import get_asnet, get_io_constraints_from_spec
+# from src2.utilities.config import AbstractDomain
+from src2.utilities.output_property_form import OutputPropertyForm
+from src2.verification_instance import get_asnet, get_io_constraints_from_spec
 
 
 class TestDisjunctiveEncoding:

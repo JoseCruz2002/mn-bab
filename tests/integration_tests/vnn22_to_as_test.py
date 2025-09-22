@@ -5,8 +5,8 @@ import onnxruntime as ort  # type: ignore[import]
 import torch
 from torch import nn
 
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.utilities.loading.network import load_onnx_model
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.utilities.loading.network import load_onnx_model
 from tests.test_util import get_deep_poly_bounds
 
 

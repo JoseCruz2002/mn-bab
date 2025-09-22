@@ -10,23 +10,23 @@ from bunch import Bunch  # type: ignore[import]
 from torch import Tensor
 from torch.distributions.beta import Beta
 
-from src.abstract_domains.DP_f import DeepPoly_f, HybridZonotope
-from src.abstract_layers.abstract_linear import Linear
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.abstract_layers.abstract_relu import ReLU
-from src.abstract_layers.abstract_sequential import Sequential
-from src.abstract_layers.abstract_sigmoid import Sigmoid
-from src.abstract_layers.abstract_tanh import Tanh
-from src.branch_and_bound import BranchAndBound
-from src.concrete_layers.pad import Pad
-from src.concrete_layers.split_block import SplitBlock
-from src.concrete_layers.unbinary_op import UnbinaryOp
-from src.milp_network import MILPNetwork
-from src.mn_bab_optimizer import MNBabOptimizer
-from src.mn_bab_shape import AffineForm, MN_BaB_Shape
-from src.mn_bab_verifier import MNBaBVerifier
-from src.state.tags import layer_tag, query_tag
-from src.utilities.config import (
+from src2.abstract_domains.DP_f import DeepPoly_f, HybridZonotope
+from src2.abstract_layers.abstract_linear import Linear
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.abstract_layers.abstract_relu import ReLU
+from src2.abstract_layers.abstract_sequential import Sequential
+from src2.abstract_layers.abstract_sigmoid import Sigmoid
+from src2.abstract_layers.abstract_tanh import Tanh
+from src2.branch_and_bound import BranchAndBound
+from src2.concrete_layers.pad import Pad
+from src2.concrete_layers.split_block import SplitBlock
+from src2.concrete_layers.unbinary_op import UnbinaryOp
+from src2.milp_network import MILPNetwork
+from src2.mn_bab_optimizer import MNBabOptimizer
+from src2.mn_bab_shape import AffineForm, MN_BaB_Shape
+from src2.mn_bab_verifier import MNBaBVerifier
+from src2.state.tags import layer_tag, query_tag
+from src2.utilities.config import (
     MNBabOptimizerConfig,
     MNBabVerifierConfig,
     make_backsubstitution_config,
@@ -34,10 +34,10 @@ from src.utilities.config import (
     make_prima_hyperparameters,
     make_verifier_config,
 )
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.network import freeze_network, load_onnx_model, mnist_a_b
-from src.utilities.queries import get_output_bound_initial_query_coef
-from src.verification_subproblem import SubproblemState
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.network import freeze_network, load_onnx_model, mnist_a_b
+from src2.utilities.queries import get_output_bound_initial_query_coef
+from src2.verification_subproblem import SubproblemState
 
 MNIST_INPUT_DIM = (1, 28, 28)
 CIFAR10_INPUT_DIM = (3, 32, 32)

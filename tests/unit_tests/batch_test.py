@@ -3,12 +3,12 @@ from copy import deepcopy
 
 import torch
 
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.branch_and_bound import BranchAndBound
-from src.mn_bab_optimizer import MNBabOptimizer
-from src.utilities.config import make_verifier_config
-from src.utilities.loading.data import transform_and_bound
-from src.utilities.loading.network import freeze_network, mnist_a_b, mnist_conv_tiny
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.branch_and_bound import BranchAndBound
+from src2.mn_bab_optimizer import MNBabOptimizer
+from src2.utilities.config import make_verifier_config
+from src2.utilities.loading.data import transform_and_bound
+from src2.utilities.loading.network import freeze_network, mnist_a_b, mnist_conv_tiny
 from tests.test_util import (
     MNIST_CONV_DATA_TEST_CONFIG,
     MNIST_FC_DATA_TEST_CONFIG,

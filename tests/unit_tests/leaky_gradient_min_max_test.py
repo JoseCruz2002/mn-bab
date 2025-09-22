@@ -1,7 +1,7 @@
 import torch
 
-from src.utilities.leaky_gradient_maximum_function import LeakyGradientMaximumFunction
-from src.utilities.leaky_gradient_minimum_function import LeakyGradientMinimumFunction
+from src2.utilities.leaky_gradient_maximum_function import LeakyGradientMaximumFunction
+from src2.utilities.leaky_gradient_minimum_function import LeakyGradientMinimumFunction
 
 leaky_gradient_minimum = LeakyGradientMinimumFunction.apply
 leaky_gradient_maximum = LeakyGradientMaximumFunction.apply

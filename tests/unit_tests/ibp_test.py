@@ -3,7 +3,7 @@ from typing import Dict, Tuple
 import torch
 from torch import Tensor
 
-from src.milp_network import MILPNetwork
+from src2.milp_network import MILPNetwork
 from tests.test_util import get_deep_poly_bounds, toy_net
 
 

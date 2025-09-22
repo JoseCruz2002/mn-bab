@@ -14,3 +14,9 @@ scripts/benchmark_results/*
 data/comp_bounds/*
 run/*
 *.coverage
+
+#gurobi912/*
+logs/*
+#networks/*
+#configs/*
+#*.out

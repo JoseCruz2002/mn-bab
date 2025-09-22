@@ -8,11 +8,11 @@ import onnx  # type: ignore [import]
 import torch
 from torch import Tensor
 
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.utilities.config import make_backsubstitution_config
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.dnnv_simplify import simplify_onnx
-from src.utilities.loading.network import (
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.utilities.config import make_backsubstitution_config
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.dnnv_simplify import simplify_onnx
+from src2.utilities.loading.network import (
     freeze_network,
     load_onnx_from_proto,
     load_onnx_model,

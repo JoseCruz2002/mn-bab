@@ -1,7 +1,7 @@
 import torch
 
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.network import load_onnx_model
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.network import load_onnx_model
 
 
 class TestDeterminism:

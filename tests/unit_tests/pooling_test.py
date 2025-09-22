@@ -3,11 +3,11 @@ import time
 import torch
 from torch.distributions.beta import Beta
 
-from src.abstract_domains.DP_f import DeepPoly_f
-from src.abstract_domains.zonotope import HybridZonotope
-from src.milp_network import MILPNetwork
-from src.state.tags import layer_tag
-from src.utilities.initialization import seed_everything
+from src2.abstract_domains.DP_f import DeepPoly_f
+from src2.abstract_domains.zonotope import HybridZonotope
+from src2.milp_network import MILPNetwork
+from src2.state.tags import layer_tag
+from src2.utilities.initialization import seed_everything
 from tests.test_util import (
     get_deep_poly_bounds,
     pad_toy_max_pool_net,

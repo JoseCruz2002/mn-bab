@@ -87,5 +87,6 @@
   "use_online_logging": false,
   "comet_api_key": "-",
   "comet_project_name": "-",
-  "comet_workspace": "-"
+  "comet_workspace": "-",
+  "check_binary_features": false
 }

@@ -5,10 +5,10 @@ from pathlib import Path
 import torch
 from torch import nn
 
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.milp_network import MILPNetwork
-from src.state.tags import layer_tag
-from src.utilities.loading.network import load_onnx_model
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.milp_network import MILPNetwork
+from src2.state.tags import layer_tag
+from src2.utilities.loading.network import load_onnx_model
 from tests.test_util import get_deep_poly_bounds, toy_unbinary_net
 
 

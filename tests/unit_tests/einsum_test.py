@@ -4,9 +4,9 @@ import torch
 from torch import Tensor
 from torch.distributions.beta import Beta
 
-from src.abstract_domains.DP_f import DeepPoly_f
-from src.abstract_domains.zonotope import HybridZonotope
-from src.utilities.initialization import seed_everything
+from src2.abstract_domains.DP_f import DeepPoly_f
+from src2.abstract_domains.zonotope import HybridZonotope
+from src2.utilities.initialization import seed_everything
 from tests.test_util import _pgd_whitebox
 
 

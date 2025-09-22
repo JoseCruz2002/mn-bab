@@ -5,18 +5,18 @@ import numpy as np
 import torch
 from torch import Tensor
 
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.mn_bab_optimizer import MNBabOptimizer
-from src.utilities.config import make_backsubstitution_config, make_optimizer_config
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.data import transform_and_bound
-from src.utilities.loading.network import (
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.mn_bab_optimizer import MNBabOptimizer
+from src2.utilities.config import make_backsubstitution_config, make_optimizer_config
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.data import transform_and_bound
+from src2.utilities.loading.network import (
     cifar10_cnn_A,
     freeze_network,
     mnist_conv_small,
     resnet2b,
 )
-from src.verification_subproblem import SubproblemState
+from src2.verification_subproblem import SubproblemState
 from tests.test_util import (
     CIFAR10_CONV_DATA_TEST_CONFIG,
     CIFAR10_INPUT_DIM,

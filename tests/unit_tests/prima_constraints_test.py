@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.utilities.prima_util import ActivationType, make_kactivation_obj
+from src2.utilities.prima_util import ActivationType, make_kactivation_obj
 
 
 class TestPrimaConstraints:

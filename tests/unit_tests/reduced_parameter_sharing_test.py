@@ -1,6 +1,6 @@
 import torch
 
-from src.utilities.config import make_optimizer_config
+from src2.utilities.config import make_optimizer_config
 from tests.test_util import optimize_output_node_bounds_with_prima_crown, toy_net
 
 

@@ -6,8 +6,8 @@ import numpy as np
 import onnxruntime as ort  # type: ignore[import]
 import torch
 
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.network import load_onnx_model
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.network import load_onnx_model
 
 
 def is_float_try(str: str) -> bool:

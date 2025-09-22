@@ -2,14 +2,14 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.abstract_layers.abstract_sigmoid import Sigmoid
-from src.mn_bab_shape import AffineForm, MN_BaB_Shape
-from src.state.tags import query_tag
-from src.utilities.argument_parsing import get_config_from_json
-from src.utilities.attacks import torch_whitebox_attack
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.network import freeze_network, load_net_from
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.abstract_layers.abstract_sigmoid import Sigmoid
+from src2.mn_bab_shape import AffineForm, MN_BaB_Shape
+from src2.state.tags import query_tag
+from src2.utilities.argument_parsing import get_config_from_json
+from src2.utilities.attacks import torch_whitebox_attack
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.network import freeze_network, load_net_from
 from tests.test_util import (
     get_deep_poly_bounds,
     optimize_output_node_bounds_with_prima_crown,

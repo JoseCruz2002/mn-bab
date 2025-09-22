@@ -3,8 +3,8 @@ from typing import List, Tuple, Union
 
 import numpy as np
 
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.vnn_spec_loader import (
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.vnn_spec_loader import (
     parse_vnn_lib_prop,
     translate_constraints_to_label,
 )

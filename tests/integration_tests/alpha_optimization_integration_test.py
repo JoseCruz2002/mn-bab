@@ -2,10 +2,10 @@ import csv
 
 import torch
 
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.data import transform_and_bound
-from src.utilities.loading.network import freeze_network, mnist_a_b, mnist_conv_small
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.data import transform_and_bound
+from src2.utilities.loading.network import freeze_network, mnist_a_b, mnist_conv_small
 from tests.test_util import (
     MNIST_CONV_DATA_TEST_CONFIG,
     MNIST_FC_DATA_TEST_CONFIG,

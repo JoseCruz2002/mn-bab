@@ -1,0 +1,668 @@
+
+Device Info:
+0: NVIDIA GeForce MX350
+
+Python Version:
+3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:21) 
+[GCC 9.4.0]
+
+Torch Version:
+1.13.1+cu117
+CUDA Version:
+11.7
+CUDA PATH:
+None
+CUDA Home:
+None
+
+====================
+Verifying instance number: 0
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [39.20344543457031, 38.81726837158203, 30.192119598388672, 25.831209182739258, 39.20344543457031, 39.20344543457031, 39.20344543457031, 39.20344543457031, 31.221261978149414]
+Total instance time: 0.04971003532409668
+Verified instance:  0
+Iteration time:  0.05095720291137695
+Running average verification time: 0.05095720291137695
+Correct 1 out of 1
+Verified 1 out of 1
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 1
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [35.26561737060547, 17.31627082824707, 18.802066802978516, 35.26561737060547, 35.26561737060547, 31.671674728393555, 25.826704025268555, 35.26561737060547, 35.26561737060547]
+Total instance time: 0.044524431228637695
+Verified instance:  1
+Iteration time:  0.04516100883483887
+Running average verification time: 0.04805910587310791
+Correct 2 out of 2
+Verified 2 out of 2
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 2
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [29.713003158569336, 27.57211685180664, 29.713003158569336, 22.237411499023438, 29.713003158569336, 29.713003158569336, 21.013957977294922, 29.713003158569336, 28.735870361328125]
+Total instance time: 0.046387672424316406
+Verified instance:  2
+Iteration time:  0.04702448844909668
+Running average verification time: 0.0477142333984375
+Correct 3 out of 3
+Verified 3 out of 3
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 3
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [30.347091674804688, 27.06135368347168, 30.347091674804688, 29.993589401245117, 30.347091674804688, 27.65928840637207, 27.91609001159668, 30.347091674804688, 30.347091674804688]
+Total instance time: 0.03642988204956055
+Verified instance:  3
+Iteration time:  0.037142038345336914
+Running average verification time: 0.045071184635162354
+Correct 4 out of 4
+Verified 4 out of 4
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 4
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [34.40303421020508, 34.6514892578125, 31.959468841552734, 34.6514892578125, 34.6514892578125, 34.6514892578125, 28.029308319091797, 34.6514892578125, 15.761090278625488]
+Total instance time: 0.029224395751953125
+Verified instance:  4
+Iteration time:  0.02985239028930664
+Running average verification time: 0.04202742576599121
+Correct 5 out of 5
+Verified 5 out of 5
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 5
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [38.01359558105469, 38.01359558105469, 38.01359558105469, 26.079315185546875, 38.01359558105469, 38.01359558105469, 25.845455169677734, 38.01359558105469, 31.85810661315918]
+Total instance time: 0.03832387924194336
+Verified instance:  5
+Iteration time:  0.03890275955200195
+Running average verification time: 0.04150664806365967
+Correct 6 out of 6
+Verified 6 out of 6
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 6
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [39.241092681884766, 39.241092681884766, 39.241092681884766, 39.241092681884766, 39.241092681884766, 39.241092681884766, 30.633031845092773, 39.241092681884766, 26.890710830688477]
+Total instance time: 0.035146474838256836
+Verified instance:  6
+Iteration time:  0.035902976989746094
+Running average verification time: 0.040706123624529154
+Correct 7 out of 7
+Verified 7 out of 7
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 7
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [30.34446144104004, 30.34446144104004, 30.34446144104004, 27.185165405273438, 17.252077102661133, 30.34446144104004, 30.34446144104004, 13.530951499938965, 30.34446144104004]
+Total instance time: 0.03206229209899902
+Verified instance:  7
+Iteration time:  0.03257298469543457
+Running average verification time: 0.039689481258392334
+Correct 8 out of 8
+Verified 8 out of 8
+Disproved 0 out of 0
+
+Network fails on test image, skipping.
+
+====================
+Verifying instance number: 9
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [40.652252197265625, 40.652252197265625, 40.652252197265625, 40.652252197265625, 10.968328475952148, 40.652252197265625, 40.652252197265625, 21.377017974853516, 40.652252197265625]
+Total instance time: 0.03668570518493652
+Verified instance:  9
+Iteration time:  0.03732013702392578
+Running average verification time: 0.03942622078789605
+Correct 9 out of 10
+Verified 9 out of 9
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 10
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [23.37177276611328, 19.54531478881836, 23.37177276611328, 23.37177276611328, 23.37177276611328, 14.556757926940918, 23.37177276611328, 23.37177276611328, 23.37177276611328]
+Total instance time: 0.027175188064575195
+Verified instance:  10
+Iteration time:  0.027914762496948242
+Running average verification time: 0.03827507495880127
+Correct 10 out of 11
+Verified 10 out of 10
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 11
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [21.835996627807617, 20.710134506225586, 10.79255485534668, 21.258155822753906, 21.85498809814453, 20.295555114746094, 21.85498809814453, 21.85498809814453, 21.85498809814453]
+Total instance time: 0.05361151695251465
+Verified instance:  11
+Iteration time:  0.05428004264831543
+Running average verification time: 0.039730072021484375
+Correct 11 out of 12
+Verified 11 out of 11
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 12
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [43.781837463378906, 43.781837463378906, 43.781837463378906, 43.781837463378906, 18.631649017333984, 43.781837463378906, 43.781837463378906, 24.629419326782227, 43.781837463378906]
+Total instance time: 0.0477755069732666
+Verified instance:  12
+Iteration time:  0.04865884780883789
+Running average verification time: 0.040474136670430504
+Correct 12 out of 13
+Verified 12 out of 12
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 13
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [33.230831146240234, 32.41127014160156, 33.230831146240234, 33.025474548339844, 33.230831146240234, 33.230831146240234, 29.00728416442871, 33.230831146240234, 27.5460205078125]
+Total instance time: 0.0314180850982666
+Verified instance:  13
+Iteration time:  0.03209733963012695
+Running average verification time: 0.03982976766733023
+Correct 13 out of 14
+Verified 13 out of 13
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 14
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [44.78131866455078, 44.78131866455078, 36.29742431640625, 37.93095016479492, 44.78131866455078, 44.78131866455078, 34.46895217895508, 44.71683883666992, 44.78131866455078]
+Total instance time: 0.033437490463256836
+Verified instance:  14
+Iteration time:  0.03402829170227051
+Running average verification time: 0.03941537652696882
+Correct 14 out of 15
+Verified 14 out of 14
+Disproved 0 out of 0
+
+Network fails on test image, skipping.
+
+====================
+Verifying instance number: 16
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [37.80340576171875, 37.80340576171875, 37.80340576171875, 37.80340576171875, 12.727151870727539, 37.80340576171875, 37.80340576171875, 21.0733699798584, 37.80340576171875]
+Total instance time: 0.03174233436584473
+Verified instance:  16
+Iteration time:  0.032357215881347656
+Running average verification time: 0.03894483248392741
+Correct 15 out of 17
+Verified 15 out of 15
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 17
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [41.22541046142578, 41.22541046142578, 24.69237518310547, 28.942169189453125, 41.22541046142578, 41.22541046142578, 41.22541046142578, 41.22541046142578, 35.41013717651367]
+Total instance time: 0.03571176528930664
+Verified instance:  17
+Iteration time:  0.036222219467163086
+Running average verification time: 0.03877466917037964
+Correct 16 out of 18
+Verified 16 out of 16
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 18
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [23.599246978759766, 17.241104125976562, 10.296306610107422, 23.599246978759766, 23.599246978759766, 23.599246978759766, 14.901484489440918, 20.269479751586914, 23.599246978759766]
+Total instance time: 0.03153109550476074
+Verified instance:  18
+Iteration time:  0.03209948539733887
+Running average verification time: 0.03838201130137724
+Correct 17 out of 19
+Verified 17 out of 17
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 19
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [43.42788314819336, 43.42788314819336, 40.74562072753906, 43.42788314819336, 43.42788314819336, 43.42788314819336, 43.32271194458008, 43.42788314819336, 27.11792755126953]
+Total instance time: 0.09126949310302734
+Verified instance:  19
+Iteration time:  0.09193587303161621
+Running average verification time: 0.04135722584194607
+Correct 18 out of 20
+Verified 18 out of 18
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 20
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [36.41099166870117, 36.41099166870117, 36.41099166870117, 36.41099166870117, 14.783536911010742, 36.41099166870117, 36.41099166870117, 12.266788482666016, 36.41099166870117]
+Total instance time: 0.05407261848449707
+Verified instance:  20
+Iteration time:  0.054979562759399414
+Running average verification time: 0.042074190942864666
+Correct 19 out of 21
+Verified 19 out of 19
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 21
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [40.27714538574219, 40.27714538574219, 36.28439712524414, 40.27714538574219, 39.508056640625, 31.658336639404297, 40.27714538574219, 40.27714538574219, 40.27714538574219]
+Total instance time: 0.028667449951171875
+Verified instance:  21
+Iteration time:  0.029068470001220703
+Running average verification time: 0.041423904895782473
+Correct 20 out of 22
+Verified 20 out of 20
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 22
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [19.883438110351562, 19.883438110351562, 18.02139663696289, 19.883438110351562, 12.86911678314209, 19.883438110351562, 18.776317596435547, 19.883438110351562, 19.883438110351562]
+Total instance time: 0.04096341133117676
+Verified instance:  22
+Iteration time:  0.041431427001953125
+Running average verification time: 0.0414242630913144
+Correct 21 out of 23
+Verified 21 out of 21
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 23
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [48.1397819519043, 48.1397819519043, 48.1397819519043, 35.55583190917969, 48.1397819519043, 39.40445327758789, 48.1397819519043, 46.07810592651367, 46.80695724487305]
+Total instance time: 0.06065559387207031
+Verified instance:  23
+Iteration time:  0.06165170669555664
+Running average verification time: 0.04234369234605269
+Correct 22 out of 24
+Verified 22 out of 22
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 24
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [30.781497955322266, 30.781497955322266, 28.03631019592285, 30.781497955322266, 30.781497955322266, 30.781497955322266, 23.398345947265625, 30.781497955322266, 19.14237403869629]
+Total instance time: 0.029167890548706055
+Verified instance:  24
+Iteration time:  0.02979898452758789
+Running average verification time: 0.041798270266989006
+Correct 23 out of 25
+Verified 23 out of 23
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 25
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [45.56884002685547, 40.379119873046875, 45.56884002685547, 43.15562057495117, 45.56884002685547, 30.576133728027344, 45.56884002685547, 45.56884002685547, 45.56884002685547]
+Total instance time: 0.06458902359008789
+Verified instance:  25
+Iteration time:  0.06526803970336914
+Running average verification time: 0.04277617732683817
+Correct 24 out of 26
+Verified 24 out of 24
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 26
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [28.661396026611328, 28.661396026611328, 28.049461364746094, 25.045246124267578, 28.661396026611328, 28.661396026611328, 28.661396026611328, 28.661396026611328, 13.992732048034668]
+Total instance time: 0.03178977966308594
+Verified instance:  26
+Iteration time:  0.032301902770996094
+Running average verification time: 0.04235720634460449
+Correct 25 out of 27
+Verified 25 out of 25
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 27
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [44.872779846191406, 44.872779846191406, 42.6147346496582, 44.872779846191406, 44.872779846191406, 44.872779846191406, 41.85675811767578, 44.872779846191406, 23.60099220275879]
+Total instance time: 0.03517651557922363
+Verified instance:  27
+Iteration time:  0.03563809394836426
+Running average verification time: 0.0420987789447491
+Correct 26 out of 28
+Verified 26 out of 26
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 28
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [37.330322265625, 28.69318962097168, 37.330322265625, 37.330322265625, 37.330322265625, 36.39714813232422, 36.14405822753906, 37.330322265625, 37.330322265625]
+Total instance time: 0.03666353225708008
+Verified instance:  28
+Iteration time:  0.03711652755737305
+Running average verification time: 0.041914251115587026
+Correct 27 out of 29
+Verified 27 out of 27
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 29
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [27.120319366455078, 27.120319366455078, 13.06774616241455, 24.467023849487305, 26.851415634155273, 27.120319366455078, 24.6915225982666, 26.219112396240234, 27.013715744018555]
+Total instance time: 0.05276918411254883
+Verified instance:  29
+Iteration time:  0.05340766906738281
+Running average verification time: 0.04232473032815116
+Correct 28 out of 30
+Verified 28 out of 28
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 30
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [46.124019622802734, 46.124019622802734, 46.124019622802734, 46.124019622802734, 34.18388748168945, 46.124019622802734, 46.124019622802734, 44.65707778930664, 26.481767654418945]
+Total instance time: 0.029213666915893555
+Verified instance:  30
+Iteration time:  0.02997136116027832
+Running average verification time: 0.04189875208098313
+Correct 29 out of 31
+Verified 29 out of 29
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 31
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [29.223968505859375, 29.223968505859375, 21.868518829345703, 23.65160369873047, 29.223968505859375, 29.223968505859375, 19.30780601501465, 29.223968505859375, 20.620769500732422]
+Total instance time: 0.027625322341918945
+Verified instance:  31
+Iteration time:  0.028066396713256836
+Running average verification time: 0.04143767356872559
+Correct 30 out of 32
+Verified 30 out of 30
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 32
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [38.79092025756836, 38.39877700805664, 38.79092025756836, 38.79092025756836, 31.295551300048828, 38.79092025756836, 38.79092025756836, 32.71854782104492, 30.834049224853516]
+Total instance time: 0.03348422050476074
+Verified instance:  32
+Iteration time:  0.0339357852935791
+Running average verification time: 0.04119567717275312
+Correct 31 out of 33
+Verified 31 out of 31
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 33
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [3.4609482288360596, 20.47723960876465, 8.37225341796875, 20.47723960876465, 19.823307037353516, 8.748476028442383, 20.47723960876465, 20.47723960876465, 20.47723960876465]
+Total instance time: 0.02757096290588379
+Verified instance:  33
+Iteration time:  0.028139114379882812
+Running average verification time: 0.04078765958547592
+Correct 32 out of 34
+Verified 32 out of 32
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 34
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [36.665348052978516, 36.18400192260742, 30.24810218811035, 21.83759307861328, 36.665348052978516, 36.665348052978516, 36.665348052978516, 36.665348052978516, 26.589786529541016]
+Total instance time: 0.048926591873168945
+Verified instance:  34
+Iteration time:  0.04948830604553223
+Running average verification time: 0.04105131553881096
+Correct 33 out of 35
+Verified 33 out of 33
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 35
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [27.880271911621094, 10.58153247833252, 14.388925552368164, 27.880271911621094, 23.387222290039062, 27.880271911621094, 23.595701217651367, 26.95093536376953, 27.880271911621094]
+Total instance time: 0.027030229568481445
+Verified instance:  35
+Iteration time:  0.027504682540893555
+Running average verification time: 0.04065288515651927
+Correct 34 out of 36
+Verified 34 out of 34
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 36
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [34.777767181396484, 34.19327163696289, 17.634090423583984, 21.09813690185547, 34.777767181396484, 34.777767181396484, 34.777767181396484, 34.777767181396484, 29.344480514526367]
+Total instance time: 0.025844335556030273
+Verified instance:  36
+Iteration time:  0.02639627456665039
+Running average verification time: 0.040245553425380165
+Correct 35 out of 37
+Verified 35 out of 35
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 37
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [37.39898681640625, 37.39898681640625, 32.19607162475586, 31.348953247070312, 37.39898681640625, 37.39898681640625, 29.268287658691406, 37.29482650756836, 33.05636978149414]
+Total instance time: 0.02622842788696289
+Verified instance:  37
+Iteration time:  0.02667713165283203
+Running average verification time: 0.03986865282058716
+Correct 36 out of 38
+Verified 36 out of 36
+Disproved 0 out of 0
+
+====================
+Verifying instance number: 38
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [21.172924041748047, 3.0480451583862305, -0.9794672727584839, 21.172924041748047, 18.084880828857422, 21.172924041748047, 18.04694175720215, 17.231876373291016, 21.172924041748047]
+Adex found via initial DP
+Total instance time: 0.07351541519165039
+Disproved instance:  38
+Iteration time:  0.07406210899353027
+Running average verification time: 0.04079280028472076
+Correct 37 out of 39
+Verified 36 out of 36
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 39
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [40.02892303466797, 40.02892303466797, 33.81587219238281, 32.744388580322266, 40.02892303466797, 40.02892303466797, 33.04129409790039, 40.02892303466797, 38.34587097167969]
+Total instance time: 0.03941035270690918
+Verified instance:  39
+Iteration time:  0.04002261161804199
+Running average verification time: 0.04077253216191342
+Correct 38 out of 40
+Verified 37 out of 37
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 40
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [33.98374557495117, 33.98374557495117, 33.33589172363281, 27.216968536376953, 33.98374557495117, 33.98374557495117, 22.632282257080078, 33.98374557495117, 31.24648094177246]
+Total instance time: 0.031181812286376953
+Verified instance:  40
+Iteration time:  0.03172707557678223
+Running average verification time: 0.04054059737767929
+Correct 39 out of 41
+Verified 38 out of 38
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 41
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [23.60991859436035, 23.60991859436035, 19.1789608001709, 5.0103864669799805, 23.60991859436035, 23.60991859436035, 23.60991859436035, 22.989171981811523, 11.813387870788574]
+Total instance time: 0.028655290603637695
+Verified instance:  41
+Iteration time:  0.029099225997924805
+Running average verification time: 0.040254563093185425
+Correct 40 out of 42
+Verified 39 out of 39
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 42
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [45.17277145385742, 45.17277145385742, 45.17277145385742, 45.17277145385742, 45.17277145385742, 45.17277145385742, 34.80710220336914, 45.17277145385742, 14.351400375366211]
+Total instance time: 0.028714418411254883
+Verified instance:  42
+Iteration time:  0.029275894165039062
+Running average verification time: 0.03998679068030381
+Correct 41 out of 43
+Verified 40 out of 40
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 43
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [20.41456413269043, 6.579405784606934, 17.95920753479004, 16.138023376464844, 20.41456413269043, 14.784667015075684, 20.41456413269043, 20.41456413269043, 20.41456413269043]
+Total instance time: 0.03047800064086914
+Verified instance:  43
+Iteration time:  0.030930042266845703
+Running average verification time: 0.03977115381331671
+Correct 42 out of 44
+Verified 41 out of 41
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 44
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [31.269577026367188, 26.62974739074707, 31.269577026367188, 31.269577026367188, 7.034612655639648, 31.269577026367188, 31.269577026367188, 31.269577026367188, 28.439252853393555]
+Total instance time: 0.028642892837524414
+Verified instance:  44
+Iteration time:  0.029242753982543945
+Running average verification time: 0.03952630730562432
+Correct 43 out of 45
+Verified 42 out of 42
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 45
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [35.46039581298828, 35.46039581298828, 35.46039581298828, 17.10063934326172, 35.46039581298828, 31.83562660217285, 35.46039581298828, 27.504743576049805, 28.799924850463867]
+Total instance time: 0.02722620964050293
+Verified instance:  45
+Iteration time:  0.027781009674072266
+Running average verification time: 0.03925936872308904
+Correct 44 out of 46
+Verified 43 out of 43
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 46
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [27.722976684570312, 27.722976684570312, 9.921625137329102, 25.43466567993164, 27.722976684570312, 27.722976684570312, 25.271778106689453, 25.143287658691406, 22.155616760253906]
+Total instance time: 0.02799510955810547
+Verified instance:  46
+Iteration time:  0.028484582901000977
+Running average verification time: 0.03901992903815375
+Correct 45 out of 47
+Verified 44 out of 44
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 47
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [18.890384674072266, 17.314807891845703, 16.27975845336914, 15.522857666015625, 18.890384674072266, 12.788718223571777, 18.019805908203125, 18.890384674072266, 18.890384674072266]
+Total instance time: 0.030759096145629883
+Verified instance:  47
+Iteration time:  0.03136801719665527
+Running average verification time: 0.03885358312855596
+Correct 46 out of 48
+Verified 45 out of 45
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 48
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [55.76884841918945, 55.76884841918945, 55.76884841918945, 55.76884841918945, 55.76884841918945, 55.76884841918945, 49.252655029296875, 55.76884841918945, 30.306116104125977]
+Total instance time: 0.028322219848632812
+Verified instance:  48
+Iteration time:  0.028894424438476562
+Running average verification time: 0.03864168613515002
+Correct 47 out of 49
+Verified 46 out of 46
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 49
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [45.655235290527344, 45.655235290527344, 44.17739486694336, 45.655235290527344, 45.655235290527344, 45.655235290527344, 36.61530303955078, 45.655235290527344, 19.40370750427246]
+Total instance time: 0.030476093292236328
+Verified instance:  49
+Iteration time:  0.03152656555175781
+Running average verification time: 0.038493454456329346
+Correct 48 out of 50
+Verified 47 out of 47
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 50
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [34.53717041015625, 35.3244743347168, 34.84804153442383, 32.601531982421875, 34.95753860473633, 26.092514038085938, 35.3244743347168, 35.3244743347168, 35.3244743347168]
+Total instance time: 0.05366921424865723
+Verified instance:  50
+Iteration time:  0.054430246353149414
+Running average verification time: 0.038818695107284855
+Correct 49 out of 51
+Verified 48 out of 48
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 51
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [38.31923294067383, 35.109153747558594, 31.66694450378418, 38.31923294067383, 35.599388122558594, 38.31923294067383, 37.60646438598633, 32.34910202026367, 38.283905029296875]
+Total instance time: 0.03264570236206055
+Verified instance:  51
+Iteration time:  0.03323173522949219
+Running average verification time: 0.038706955909729
+Correct 50 out of 52
+Verified 49 out of 49
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 52
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [19.080907821655273, 17.903961181640625, 19.080907821655273, 19.080907821655273, 19.080907821655273, 19.080907821655273, 10.564679145812988, 19.080907821655273, 15.044252395629883]
+Total instance time: 0.03519248962402344
+Verified instance:  52
+Iteration time:  0.03589749336242676
+Running average verification time: 0.038651868408801505
+Correct 51 out of 53
+Verified 50 out of 50
+Disproved 1 out of 1
+
+====================
+Verifying instance number: 53
+Analyzing 1 input regions with at most 784/784 non-zero-width inputs and neurons-parameters: 110-42310
+deep poly lower bounds: [10.075577735900879, 8.63637924194336, 10.075577735900879, -1.0597388744354248, 10.075577735900879, 10.038695335388184, 10.075577735900879, 8.551233291625977, 3.5293915271759033]
+No adex found via attack
+Verifying gt tuple  (5, 3, 0)
+Verifying query  sample_0_gt_tuple_5_3_0
+deep poly lower bounds: [-1.059738039970398]
+Unstable neurons post DP: 27
+alpha lower bounds: [-1.0513159036636353]
+Unstable neurons post alpha: 27
+-- prima_interface; _build_sparse_prima_coefficient_matrix;
+output_coefs: False
+input_coefs: False
+----------------------------------------------------------------
+-- abstract_relu; _compute_new_prima_coefficients;
+output_var_coefs False
+input_var_coefs False
+const_coefs False
+--------------------------------------------------
+-- abstract_relu; _get_prima_coefficients; 2
+new_prima_coefficients[0] False
+new_prima_coefficients[1] False
+new_prima_coefficients[2] False
+--------------------------------------------------
+-- abstract_relu; backsubstitute; 1
+prima_output_coefs False
+----------------------------------------------------
+-- abstract_relu; _multiply_prima_coefs_and_parameters; 11111
+prima_coefs False
+prima_params False
+prima_coefs False
+prima_params False
+--------------------------------------------------

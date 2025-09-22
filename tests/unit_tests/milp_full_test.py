@@ -4,12 +4,12 @@ import time
 import torch
 from torch import nn
 
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.milp_network import MILPNetwork
-from src.state.tags import layer_tag
-from src.utilities.argument_parsing import get_config_from_json
-from src.utilities.initialization import seed_everything
-from src.utilities.loading.network import load_net_from
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.milp_network import MILPNetwork
+from src2.state.tags import layer_tag
+from src2.utilities.argument_parsing import get_config_from_json
+from src2.utilities.initialization import seed_everything
+from src2.utilities.loading.network import load_net_from
 from tests.test_util import get_deep_poly_bounds, toy_all_layer_net, toy_net
 
 

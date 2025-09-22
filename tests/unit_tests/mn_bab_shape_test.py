@@ -1,8 +1,8 @@
 import torch
 
-from src.abstract_layers.abstract_relu import ReLU
-from src.mn_bab_shape import AffineForm, MN_BaB_Shape
-from src.state.tags import query_tag
+from src2.abstract_layers.abstract_relu import ReLU
+from src2.mn_bab_shape import AffineForm, MN_BaB_Shape
+from src2.state.tags import query_tag
 
 
 class TestMNBaBShape:

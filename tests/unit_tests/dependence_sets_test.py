@@ -2,15 +2,15 @@ import torch
 import torch.nn as nn
 from torch import Tensor
 
-from src.abstract_layers.abstract_conv2d import Conv2d
-from src.abstract_layers.abstract_max_pool2d import MaxPool2d
-from src.abstract_layers.abstract_network import AbstractNetwork
-from src.abstract_layers.abstract_relu import ReLU
-from src.mn_bab_shape import AffineForm, MN_BaB_Shape
-from src.state.tags import query_tag
-from src.utilities.config import make_backsubstitution_config
-from src.utilities.dependence_sets import DependenceSets
-from src.utilities.initialization import seed_everything
+from src2.abstract_layers.abstract_conv2d import Conv2d
+from src2.abstract_layers.abstract_max_pool2d import MaxPool2d
+from src2.abstract_layers.abstract_network import AbstractNetwork
+from src2.abstract_layers.abstract_relu import ReLU
+from src2.mn_bab_shape import AffineForm, MN_BaB_Shape
+from src2.state.tags import query_tag
+from src2.utilities.config import make_backsubstitution_config
+from src2.utilities.dependence_sets import DependenceSets
+from src2.utilities.initialization import seed_everything
 from tests.test_util import toy_max_pool_mixed_net
 
 

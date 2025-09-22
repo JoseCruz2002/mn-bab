@@ -2,9 +2,9 @@ import os
 
 from bunch import Bunch  # type: ignore[import]
 
-from src.utilities.argument_parsing import get_config_from_json
-from src.utilities.loading.vnn_spec_loader import vnn_lib_data_loader
-from src.verification_instance import VerificationInstance
+from src2.utilities.argument_parsing import get_config_from_json
+from src2.utilities.loading.vnn_spec_loader import vnn_lib_data_loader
+from src2.verification_instance import VerificationInstance
 
 
 def set_eran_config(cfg: Bunch) -> Bunch:

@@ -1,12 +1,12 @@
 import torch
 from torch import Tensor
 
-from src.abstract_domains.DP_f import DeepPoly_f
-from src.abstract_domains.zonotope import HybridZonotope
-from src.abstract_layers.abstract_linear import Linear
-from src.mn_bab_shape import AffineForm, MN_BaB_Shape
-from src.state.tags import query_tag
-from src.utilities.config import make_backsubstitution_config
+from src2.abstract_domains.DP_f import DeepPoly_f
+from src2.abstract_domains.zonotope import HybridZonotope
+from src2.abstract_layers.abstract_linear import Linear
+from src2.mn_bab_shape import AffineForm, MN_BaB_Shape
+from src2.state.tags import query_tag
+from src2.utilities.config import make_backsubstitution_config
 
 
 class TestLinear:
