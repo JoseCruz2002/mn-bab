@@ -15,7 +15,7 @@ data/comp_bounds/*
 run/*
 *.coverage
 
-#gurobi912/*
+gurobi912/*
 logs/*
 #networks/*
 #configs/*
